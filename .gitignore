@@ -1,0 +1,17 @@
+/.bsp/
+/.metals/
+/.vscode/
+/.bloop/
+
+/target/
+/project/
+/Animation/target/
+/Animation/project/
+
+/rust-target/
+/code/Hadoop/target/
+/code/Hadoop/project/
+/Beam/target/
+/Beam/project/
+
+
