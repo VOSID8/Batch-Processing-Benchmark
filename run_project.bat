@@ -8,21 +8,6 @@ set PANDAS_FILE=code\pandas_example.py
 set HDFS_FILE_PATH=\hdfs\input\textinput.txt
 set HADOOP_JAR_FILE=code\hadoop\target\WordCountHadoop-1.0-SNAPSHOT.jar
 
-if not exist "%SPARK_JAR_FILE%" (
-    echo Error: Spark JAR file not found. Please check the file path.
-    exit /B 1
-)
-
-if not exist "%PYSPARK_FILE%" (
-    echo Error: PySpark script not found. Please check the file path.
-    exit /B 1
-)
-
-if not exist "%PANDAS_FILE%" (
-    echo Error: Pandas script not found. Please check the file path.
-    exit /B 1
-)
-
 echo Running Spark job...
 start /B spark-submit --class SparkExample --master local[4] "%SPARK_JAR_FILE%"
 echo Spark job is running...
