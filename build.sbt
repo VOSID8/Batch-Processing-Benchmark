@@ -1,4 +1,4 @@
-name := "sparkWordCount"
+name := "sparkwordcount"
 
 version := "1.0"
 
