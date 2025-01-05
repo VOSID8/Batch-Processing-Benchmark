@@ -11,7 +11,6 @@ object SparkExample {
     val spark = SparkSession.builder()
       .appName("Word Count")
       .master("local[4]") 
-      .config("spark.sql.shuffle.partitions", "8") 
       .getOrCreate()
 
     import spark.implicits._
