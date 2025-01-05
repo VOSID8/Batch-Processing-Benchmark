@@ -41,8 +41,7 @@ Due to inadequate memory requirements (atleast on my laptop), beam is to be run 
 Batch processing code files are placed under the code (Apart from beam, for the reason stated above). Animation folder contains the code done for the project's result animation above using Doodle (Scala's computer graphic library)
 
 ## Discussion and more
-Refer to: https://visionofsid.com/2025/01/05/benchmarking-batch-processing-tools-performance-analysis/
-
+Refer to: https://medium.com/@siddharthbanga/benchmarking-batch-processing-tools-performance-analysis-26a8c844c4ce
 
 
 
