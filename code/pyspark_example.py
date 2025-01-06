@@ -22,12 +22,12 @@ def main():
 
     # word_counts.show()
 
+    spark.stop()
+
     end_time = time.time()
     elapsed_time = end_time - start_time
 
     print(f"Time taken by PySpark: {elapsed_time:.2f} Seconds")
-
-    spark.stop()
 
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 set SPARK_SCALA_FILE=code\SparkExample.scala
 set PYSPARK_FILE=code\pyspark_example.py
-set SPARK_JAR_FILE=target\scala-2.12\sparkwordcount.12-1.0.jar
+set SPARK_JAR_FILE=target\scala-2.12\sparkwordcount_2.12-1.0.jar
 set PANDAS_FILE=code\pandas_example.py
 set HDFS_FILE_PATH=\hdfs\input\textinput.txt
 set HADOOP_JAR_FILE=code\hadoop\target\WordCountHadoop-1.0-SNAPSHOT.jar

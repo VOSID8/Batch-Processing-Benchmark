@@ -17,7 +17,7 @@ object SparkExample {
 
     spark.sparkContext.setLogLevel("ERROR")
 
-    val lines = spark.read.textFile("data/textinput.txt").persist() 
+    val lines = spark.read.textFile("data/textinput.txt")
 
     val words = lines.flatMap(line => line.split("\\s+"))
 
@@ -28,11 +28,11 @@ object SparkExample {
 
     //wordCounts.show()
 
+    spark.stop()
+
     val endTime = Instant.now()
     val duration = Duration.between(startTime, endTime)
 
     println(f"Time taken by Spark (Scala): ${duration.toMillis / 1000.0}%.2f Seconds")
-
-    spark.stop()
   }
 }
