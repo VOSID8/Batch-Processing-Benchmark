@@ -5,7 +5,6 @@ This project benchmarks the performance of various batch processing tools on a l
 
 - Apache Spark with Scala
 - Apache Hadoop with Java
-- Polars with Rust
 - Apache Spark with Python (PySpark)
 - Pandas with Numpy (Python)
 - Apache Beam with Java
@@ -19,7 +18,7 @@ The file contains 16 million rows, with each row comprising 10 random words from
 
 ## Results
 
-![Batch Processing Tools](https://github.com/user-attachments/assets/a691087f-5b3a-4e4f-8f83-e3c81a6684cf)
+![Batch Processing Tools_New](https://github.com/user-attachments/assets/1146d210-79e3-4a86-a643-773ac2278d5c)
 
 Note: The execution time may vary slightly across runs, but the performance ranking remains consistent.
 
